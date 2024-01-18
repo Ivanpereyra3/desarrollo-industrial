@@ -1,0 +1,295 @@
+/* paleta color */
+/* #E9B824 amarillo */
+/* #EE9322 naranja */
+/* #191919 negro */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+  body{font-family: 'Roboto Condensed', sans-serif;}
+   
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.img-fondo{
+  
+  background-image: url(https://img.freepik.com/foto-gratis/textura-pared-cemento-viejo_1149-1280.jpg?w=740&t=st=1705245428~exp=1705246028~hmac=dfdbec6161baffbc2de1006016c3882d721bed0d4aa8d26d6c435f432189f463);
+}
+  header{
+    background-color: #EE9322;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    
+  }
+  p{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+  header img{
+    width: 90px;
+  }
+
+  header ul{
+    list-style: none;
+  }
+/* los li son caprichosos hay que marcarlos directamente a ellos */
+ 
+header li{
+  display:inline-block;
+}
+
+  header a{
+    color: #191919;
+    text-decoration: none;
+  }
+
+  .logo-empresa{
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav{
+
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    font-size: 1.5rem;
+    margin-top: 25px;
+  }
+
+ 
+  /* mail index */
+  /* banner */
+
+  .banner{
+    margin-top: 10px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    font-size: large;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.28)
+  }
+
+  /* presentacion */
+  
+  .padre-presentacion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+
+
+  }
+  
+  
+  .presentacion{
+    text-align: center;
+    margin-top: 10px;
+    color: #191919;
+    text-shadow: 8px 8px 4px rgba(0,0,0,0.28)
+    
+
+  }
+
+  .text{
+    color: #191919;
+    text-transform: uppercase;
+    width: 300px;
+    
+  }
+
+  .desarrollo{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    background-color: #EE9322;
+    color: #191919;
+    text-align: center;
+  }
+  .trabajos h2{
+    text-align: center;
+    color: #191919;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.28)
+  
+  }
+  .empresas{
+    background-color: #EE9322;
+    text-align: center;
+    text-decoration: underline;
+    color: #191919;
+    width: 300px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.28)
+
+  }
+  .nosotros-empresa-img{
+    margin-top: 10px;
+    background-size: contain;
+    background-position: center;
+   text-align: center;
+
+  }
+  .domicilios{
+    background-color: #EE9322;
+    text-align: center;
+    text-decoration: underline;
+    color: #191919;
+    width: 300px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.28)
+    mar
+
+  }
+  .trabajos img{
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  footer {
+    background-color: #EE9322;
+    margin-top: 10px;
+  }
+  footer img{
+    width: 50px;
+    margin-top: 20px;
+
+  }
+  .redes{
+    text-align: center;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .whatsapp{
+    width: 35px
+  }
+
+.logo1{
+  width: 200px;
+}
+.logo2{
+  width: 200px;
+}
+.logo3{
+  width: 200px;
+}
+.valores{
+  width: 50px;
+}
+
+.objetivo{
+  width: 50px;
+}
+.empresa-familiar{
+  text-align: center;
+}
+.empresa-fundamentos{
+  display: flex;
+    flex-direction: row
+
+}
+.valor,.objetivos,.vista{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 32.5%;
+margin-top: 30px;
+padding: 20px 2px;
+}
+
+.futuro{
+width: 50px;
+}
+.tel{
+  width: 40px;
+}
+.map{
+  text-align: end;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+.contenedor-contact{
+  max-width: 800px;
+  background-color:#EE9322 ;
+   margin: 20px auto;
+   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: end;
+  
+}
+.Contacto{
+  margin-bottom: 20px;
+  width: 100px;
+  padding: 15px 10px;
+  font-size: 15px;
+  outline: 0px;
+}
+ 
+.mensaje{
+  max-width: 560px;
+  min-width: 560px;
+  min-height: 140px;
+  max-height: 150px;
+}
+.enviar{
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background-color: #f5f5f5;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+ 
+@media screen and ( max-width:500px ){
+
+
+.padre-presentacion{
+  display: flex;
+  flex-direction: column;
+  
+}
+.text{
+  width: 100%;
+}
+.contenedor-contact{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  align-content: center;
+  align-items: stretch;
+
+}
+.mensaje{
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+}
+
+.nosotros-empresa-img{
+width: 100%;
+}
