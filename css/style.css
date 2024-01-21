@@ -77,7 +77,7 @@ header li{
   /* banner */
 
   .banner{
-    margin-top: 10px;
+    margin-top: 40px;
     height: 100px;
     background-size: contain;
     background-position: center;
@@ -160,7 +160,7 @@ header li{
 
   footer {
     background-color: #EE9322;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   footer img{
     width: 50px;
@@ -180,13 +180,13 @@ header li{
   }
 
 .logo1{
-  width: 200px;
+  width: 300px;
 }
 .logo2{
-  width: 200px;
+  width: 300px;
 }
 .logo3{
-  width: 200px;
+  width: 300px;
 }
 .valores{
   width: 50px;
@@ -292,4 +292,19 @@ width: 50px;
 
 .nosotros-empresa-img{
 width: 100%;
+}
+
+.cartas{
+
+  display: grid;
+   grid-template-columns: repeat(3 ,3fr);
+   grid-template-rows: repeat(2 ,3fr);
+   grid-gap: 50px;
+   margin: 0;
+   margin-left: 3%;
+ 
+ }
+.carrusel{
+  text-align: center;
+  margin-top: 60px;
 }
