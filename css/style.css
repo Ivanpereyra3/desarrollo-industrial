@@ -25,6 +25,7 @@ html{
     display: flex;
     flex-direction: column;
     position: sticky;
+    z-index: 1000;
     top: 0px;
     
   }
@@ -69,7 +70,7 @@ header li{
     justify-content: space-around;
     height: 55px;
     font-size: 1.5rem;
-    margin-top: 25px;
+    margin-top: 55px;
   }
 
  
@@ -137,11 +138,12 @@ header li{
 
   }
   .nosotros-empresa-img{
-    margin-top: 10px;
+    margin-top: 5px;
     background-size: contain;
     background-position: center;
-   text-align: center;
-
+    
+    text-align: center;
+    height: 500px;
   }
   .domicilios{
     background-color: #EE9322;
@@ -261,6 +263,31 @@ width: 50px;
   justify-content: center;
 }
 
+.cartas{
+
+  display: grid;
+  justify-items: center;
+  padding-top: 10px;
+   grid-template-columns: repeat(2 ,50fr);
+   grid-template-rows: repeat(3 ,50fr);
+   grid-gap: 50px;
+   margin: 15px;
+    
+ }
+ .card{
+  background-color: #EE9322;
+ }
+ .nosotros-empresa-img{
+  width: 100%;
+  }
+  
+
+   
+  .carrusel{
+    text-align: center;
+    margin-top: 60px;
+  }
+
  
 @media screen and ( max-width:500px ){
 
@@ -288,23 +315,11 @@ width: 50px;
   max-height: 150px;
 }
 
-}
-
-.nosotros-empresa-img{
-width: 100%;
-}
-
 .cartas{
-
-  display: grid;
-   grid-template-columns: repeat(3 ,3fr);
-   grid-template-rows: repeat(2 ,3fr);
-   grid-gap: 50px;
-   margin: 0;
-   margin-left: 3%;
- 
- }
-.carrusel{
-  text-align: center;
-  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+}
 }
