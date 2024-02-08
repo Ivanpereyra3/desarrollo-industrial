@@ -1,0 +1,35 @@
+@media screen and ( max-width:500px ){
+
+    .padre-presentacion{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .text{
+        width: 100%;
+      }
+      .contenedor-contact{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: stretch;
+        
+      }
+      .mensaje{
+        max-width: 300px;
+        min-width: 300px;
+        min-height: 140px;
+        max-height: 150px;
+      }
+      .cartas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        margin-top: 30px;
+        text-align: center;
+
+      }
+      
+}

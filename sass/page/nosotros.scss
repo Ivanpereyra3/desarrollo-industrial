@@ -1,0 +1,42 @@
+.nosotros-empresa-img{
+  margin-top: 5px;
+  background-size: contain;
+  background-position: center;
+  
+  text-align: center;
+  height: 500px;
+}
+
+.nosotros-empresa-img{
+    width: 100%;
+    }
+    .empresa-familiar{
+        text-align: center;
+      }
+      .empresa-fundamentos{
+        display: flex;
+          flex-direction: row
+      
+      }
+     
+      .valor,.objetivos,.vista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 32.5%;
+        margin-top: 30px;
+        padding: 20px 2px;
+
+         .futuro{
+            width: 50px;
+            }
+            .valores{
+                width: 50px;
+              }
+              
+              .objetivo{
+                width: 50px;
+              }
+              
+        }
+       

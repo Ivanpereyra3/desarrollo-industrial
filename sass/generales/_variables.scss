@@ -1,0 +1,15 @@
+$font :'Roboto Condensed',sans-serif;
+
+
+$naranja: #EE9322  ;
+$negro:  #191919 ;
+
+
+ 
+@mixin flex ($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+

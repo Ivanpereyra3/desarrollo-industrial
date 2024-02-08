@@ -1,0 +1,67 @@
+header{   
+    background-color: $naranja ;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+     img{
+        width: 90px;
+      }       
+    
+    .logo-empresa{
+        display: flex;
+        justify-content: center;
+      }  
+
+      .nav{
+
+        display: flex;
+        justify-content: space-around;
+        height: 55px;
+        font-size: 1.5rem;
+        margin-top: 55px;
+
+        ul{
+            list-style: none;
+          }
+          li{
+            display:inline-block;
+          }
+          a{
+            color: $negro ;
+            text-decoration: none;
+            &:hover{text-decoration: underline;}
+          }
+      }    
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: $naranja ;
+    margin-top: 30px;
+    
+    
+    img{
+        width: 50px;
+        margin-top: 20px;
+    
+      }
+      .redes{
+        text-align: center;
+      }
+      .link{
+        display: flex;
+        justify-content: space-around;
+    
+      }
+      .whatsapp{
+        width: 35px
+      }
+    
+  }
+  
+

@@ -1,0 +1,14 @@
+.cartas{
+
+    display: grid;
+    justify-items: center;
+    padding-top: 10px;
+     grid-template-columns: repeat(2 ,50fr);
+     grid-template-rows: repeat(3 ,50fr);
+     grid-gap: 50px;
+     margin: 15px;
+     .mio{
+        background-color: $naranja ;
+       }
+   }
+   
