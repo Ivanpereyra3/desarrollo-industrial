@@ -249,7 +249,7 @@ footer .whatsapp {
     align-content: center;
     align-items: stretch;
   }
-  .mensaje {
+  .contenedor-contact .mensaje {
     max-width: 300px;
     min-width: 300px;
     min-height: 140px;
