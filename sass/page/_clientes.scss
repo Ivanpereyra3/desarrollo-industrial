@@ -3,3 +3,27 @@
     text-align: center;
     margin-top: 60px;
   }
+
+
+.text{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 20px;
+color: $negro;
+text-shadow: 8px 8px 4px rgba(0,0,0,0.28)
+    
+    
+
+}
+
+.img-cliente{
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.h2{
+  display: flex;
+  justify-content: center;
+}
