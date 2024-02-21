@@ -1,7 +1,5 @@
 /*estilos generales*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +7,7 @@
 }
 
 html {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 62.5%;
 }
 
@@ -42,7 +40,6 @@ h2 {
   font-size: large;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.28);
 }
-
 
 header {
   background-color: #EE9322;
@@ -117,7 +114,6 @@ footer .whatsapp {
   color: #191919;
   text-transform: uppercase;
   width: 300px;
-  
 }
 .padre-presentacion .logo1 {
   width: 300px;
@@ -241,9 +237,8 @@ footer .whatsapp {
     flex-direction: column;
     align-items: center;
   }
-  
   .text {
-    width: 100%;   
+    width: 100%;
   }
   .contenedor-contact {
     display: flex;
@@ -252,7 +247,7 @@ footer .whatsapp {
     align-content: center;
     align-items: stretch;
   }
-  .contenedor-contact .mensaje {
+  .mensaje {
     max-width: 300px;
     min-width: 300px;
     min-height: 140px;
@@ -265,6 +260,15 @@ footer .whatsapp {
     justify-content: center;
     margin-top: 30px;
     text-align: center;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+  .padre-presentacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
   }
 }
 
