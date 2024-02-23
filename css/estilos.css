@@ -140,7 +140,7 @@ footer .whatsapp {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 .contenedor-contact .Contacto {
   margin-bottom: 20px;
@@ -267,7 +267,7 @@ footer .whatsapp {
     align-content: center;
     align-items: stretch;
   }
-  .mensaje {
+  .contenedor-contact .mensaje {
     max-width: 300px;
     min-width: 300px;
     min-height: 140px;

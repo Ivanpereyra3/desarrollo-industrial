@@ -15,14 +15,16 @@
         flex-direction: column-reverse;
         align-content: center;
         align-items: stretch;
+        .mensaje{
+          max-width: 300px;
+          min-width: 300px;
+          min-height: 140px;
+          max-height: 150px;
+        }
+        
         
       }
-      .mensaje{
-        max-width: 300px;
-        min-width: 300px;
-        min-height: 140px;
-        max-height: 150px;
-      }
+      
       .cartas{
         display: flex;
         flex-direction: column;
